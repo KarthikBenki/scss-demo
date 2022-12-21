@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.main_header {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ac3210;
+}
+.main_header h1 {
+  color: red;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+.main_header h1:hover {
+  color: blue;
+  font-size: 3rem;
+  text-transform: capitalize;
+}
+.main_header p {
+  color: yellow;
+  font-size: 2rem;
+  text-transform: lowercase;
+}
+.main_header p:hover {
+  color: blue;
+  font-size: 3rem;
+  text-transform: uppercase;
+}/*# sourceMappingURL=main.css.map */

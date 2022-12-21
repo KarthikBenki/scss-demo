@@ -1,0 +1,15 @@
+@mixin flexprob {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@mixin textTransForm($par) {
+  text-transform: $par;
+}
+
+@mixin hoverProb() {
+  color: blue;
+  font-size: 3rem;
+}

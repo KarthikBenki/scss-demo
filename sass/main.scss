@@ -1,0 +1,41 @@
+@import "mixing";
+@import "variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.main_header {
+  width: 100vw;
+  height: 100vh;
+  @include flexprob();
+  background-color: $bg-color;
+
+  h1 {
+    color: red;
+    @include textTransForm(uppercase);
+    font-size: 2rem;
+
+    &:hover {
+        @include hoverProb();
+      @include textTransForm(capitalize);
+    }
+  }
+
+  p {
+    color: yellow;
+    font-size: 2rem;
+    @include textTransForm(lowercase);
+
+    &:hover {
+      @include hoverProb();
+      @include textTransForm(uppercase);
+    }
+  }
+}
